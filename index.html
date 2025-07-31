@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rashil Dhiman | Mobile App Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <span class="logo-text">RD</span>
+      </div>
+      <div class="nav-menu" id="nav-menu">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+      <div class="nav-toggle" id="nav-toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title">
+            <span class="greeting">Hello, I'm</span>
+            <span class="name">Rashil Dhiman</span>
+            <span class="title">Mobile App Developer</span>
+          </h1>
+          <p class="hero-description">
+            Flutter & Android Developer specializing in real-time tracking, e-commerce, and scalable mobile solutions.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="floating-card">
+            <i class="fas fa-mobile-alt"></i>
+            <span>Mobile Apps</span>
+          </div>
+          <div class="floating-card">
+            <i class="fas fa-code"></i>
+            <span>Clean Code</span>
+          </div>
+          <div class="floating-card">
+            <i class="fas fa-rocket"></i>
+            <span>Performance</span>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <div class="scroll-arrow"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">About Me</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-content">
+        <div class="about-text">
+          <p class="about-description">
+            I'm a passionate Flutter and Android Developer with expertise in building real-time tracking applications, 
+            e-commerce platforms, and scalable mobile solutions. My focus is on creating clean, maintainable code 
+            using modern architecture patterns like MVVM.
+          </p>
+          <div class="about-stats">
+            <div class="stat-item">
+              <span class="stat-number">1+</span>
+              <span class="stat-label">Years Experience</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">5+</span>
+              <span class="stat-label">Projects Completed</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">100+</span>
+              <span class="stat-label">Users Impacted</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-image">
+          <div class="image-placeholder">
+            <i class="fas fa-user"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="section section-dark">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Professional Experience</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Flutter Developer</h3>
+              <span class="company">Jai Japnam Technologies</span>
+              <span class="period">Nov 2024 – June 2025</span>
+            </div>
+            <ul class="timeline-details">
+              <li>Built real-time attendance app for 100+ employees using Flutter + OSM</li>
+              <li>Implemented geofencing and payroll modules</li>
+              <li>Stack: Flutter, Firebase, Node.js, MongoDB</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Android Developer</h3>
+              <span class="company">Altrange Pvt. Ltd.</span>
+              <span class="period">May 2024 – Nov 2024</span>
+            </div>
+            <ul class="timeline-details">
+              <li>Developed scalable Kotlin modules and optimized low-end performance</li>
+              <li>Stack: Kotlin, Java, Firebase, MVVM</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-image">
+            <i class="fas fa-map-marked-alt"></i>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">MapDekh</h3>
+            <p class="project-description">
+              Real-time group tracking app with offline support and geofencing capabilities.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Flutter</span>
+              <span class="tech-tag">Firebase</span>
+              <span class="tech-tag">OSM</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image">
+            <i class="fas fa-shopping-cart"></i>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Altrange</h3>
+            <p class="project-description">
+              E-commerce app for construction materials with payment integration.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Java</span>
+              <span class="tech-tag">Firebase</span>
+              <span class="tech-tag">MVVM</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image">
+            <i class="fas fa-globe"></i>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">CountryInfoApp</h3>
+            <p class="project-description">
+              Country information search app with Node.js backend deployed on Render.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">React Native</span>
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">REST API</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section section-dark">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Skills & Technologies</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="skills-container">
+        <div class="skills-category">
+          <h3 class="category-title">Mobile Development</h3>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <i class="fab fa-android"></i>
+              <span>Android</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-mobile-alt"></i>
+              <span>Flutter</span>
+            </div>
+            <div class="skill-item">
+              <i class="fab fa-react"></i>
+              <span>React Native</span>
+            </div>
+            <div class="skill-item">
+              <i class="fab fa-java"></i>
+              <span>Java</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-code"></i>
+              <span>Kotlin</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-code"></i>
+              <span>Dart</span>
+            </div>
+          </div>
+        </div>
+        <div class="skills-category">
+          <h3 class="category-title">Backend & Cloud</h3>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <i class="fas fa-fire"></i>
+              <span>Firebase</span>
+            </div>
+            <div class="skill-item">
+              <i class="fab fa-node-js"></i>
+              <span>Node.js</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-database"></i>
+              <span>MongoDB</span>
+            </div>
+            <div class="skill-item">
+              <i class="fab fa-aws"></i>
+              <span>AWS</span>
+            </div>
+          </div>
+        </div>
+        <div class="skills-category">
+          <h3 class="category-title">Tools & Others</h3>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <i class="fab fa-git-alt"></i>
+              <span>Git</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-map-marked-alt"></i>
+              <span>OpenStreetMap</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-cogs"></i>
+              <span>CI/CD</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-code-branch"></i>
+              <span>REST APIs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="contact-details">
+              <h4>Email</h4>
+              <a href="mailto:rashildhiman2002@gmail.com">rashildhiman2002@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="contact-details">
+              <h4>Phone</h4>
+              <a href="tel:+917248055242">+91 7248055242</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="contact-details">
+              <h4>Current Location</h4>
+              <span>Chandigarh, India</span>
+            </div>
+          </div>
+        </div>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/rashil-dhiman-5121b7227/" target="_blank" class="social-link">
+            <i class="fab fa-linkedin"></i>
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://github.com/rashildhiman" target="_blank" class="social-link">
+            <i class="fab fa-github"></i>
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p>&copy; 2025 Rashil Dhiman. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
